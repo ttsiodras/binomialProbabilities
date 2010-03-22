@@ -2,7 +2,7 @@
 import random, sys
 
 # How many times do you need to toss a die to be 85% sure you'll see a one at least once? 
-# Answer:
+# Answer: 11 (not 10, as in the article)
 
 g_total = int(sys.argv[1]) if len(sys.argv)>1 else 100000
 
