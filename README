@@ -1,2 +1,6 @@
-The nice article about why you need to test with 5 users
-had a bug in the calculations.
+This nice article...
+
+    http://www.measuringusability.com/five-users.php
+
+...had a bug in the calculations about "Rolling a Die".
+I verified it using simple Python experiments.
