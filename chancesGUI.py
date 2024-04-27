@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 import sys
 
 # How many users do you need to use to identify a GUI bug that occurs at 31% chance?
@@ -14,5 +14,5 @@ def choose(n,k):
     return fact(n)/(fact(k)*fact(n-k))
 
 p = .31
-for n in xrange(2, 13):
-    print "The theory says for noOfUsers", n, "probability is", sum([choose(n,i)*(p**i)*((1-p)**(n-i)) for i in xrange(1,n+1)])
+for n in range(2, 13):
+    print("The theory says for noOfUsers", n, "probability is", sum([choose(n,i)*(p**i)*((1-p)**(n-i)) for i in range(1,n+1)]))
